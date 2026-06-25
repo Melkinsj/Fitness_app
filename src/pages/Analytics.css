@@ -1,0 +1,22 @@
+.charts-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit,minmax(450px,1fr));
+  gap: 25px;
+}
+
+.chart-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.chart-card h2 {
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+body.dark-mode .chart-card {
+  background: #1f2937;
+}

@@ -1,0 +1,21 @@
+.nutrition-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+  gap: 20px;
+}
+
+.food-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.food-table th,
+.food-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.food-table th {
+  background: #eff6ff;
+}

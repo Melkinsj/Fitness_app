@@ -1,0 +1,17 @@
+.navbar {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: #2563eb;
+}
+
+body.dark-mode .navbar {
+  background: #1f2937;
+}
